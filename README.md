@@ -1,2 +1,2 @@
 # fullejercicios01
-pagina creada con para cursos de matemáticas.
+pagina creada para cursos de matemáticas.
