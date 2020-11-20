@@ -1,77 +1,142 @@
-*{
-	margin:0;
-	padding:0;
-}
-body{
-	background:rgb(31, 132, 136);
-}
-header, .main, footer{
+
+		*{
+			margin:0;
+			padding:0;
+		}
+		body{
+			background:rgb(128, 158, 153);
+		}
+		header, .main, footer{
+			
+			width:100%;
+			max-width:84%;
+			margin:20px auto;
+		}
+		header nav{
+			background:rgb(36, 41, 117);
+			overflow:hidden; /*desbordarse:oculto*/
+		}
+		header nav ul{
+			list-style:none;
+			font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		}
+		header nav ul li{
+			float:left;
+			
+		}
+		header nav ul li label{
+			padding:17px 17px;
+			display:block;
+			color:rgb(173, 166, 166);
+			text-decoration:none;
+			font-size:19px;
+		}
+		header nav ul li label:hover{
+			background:rgb(100, 112, 94);
+		}
+		.main section{
+			width:100%;
+			max-width:91.3%;
+			float:left;
+			
+		}
+		
+		.main section{
+			padding:10px;
+			background:rgb(0, 0, 0);
+			margin-bottom:20px;
+		}
+		
+		
+		footer{
+			background:rgb(120, 150, 108);
+			color:rgb(7, 7, 7);
+			clear:both;    /*despejado:ambas*/
+			padding:10px 0px;
+			text-align:center;
+		}
+		
+		a, .grud{
+			color:rgb(165, 154, 154);
+			font-size:25px;
+			
+		}
+		
+		label{
+			font-size:18px;
+			
+		}
+		a{
+		  font-size:25px;
+		  line-height:37px; 
+		  text-decoration:none;
+		}
+		.soy{
+			border:40px solid black;
+			text-decoration:none;
+			
+		}
+		
+		.link{
+		
+			background:rgb(25, 37, 48);
+			
+			
+			padding:30px 0px;
+			text-align:center;
+			margin:0px 200px;
+			font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            
+           
+            display:block;
+        
+            border-radius:4%;
+            box-shadow:7px 7px 10px blue;
+            border: 5px solid rgb(50, 218, 27);
+		}
+		
+		.granlink{
+			font-size:60px;
+            color:rgb(175, 163, 163);
+            
+
+		}
+		
+		.granlink :hover{
+			background:rgb(100, 112, 94);
+		}
+		 
+		.tms{
+			background:rgb(56, 158, 61);
+			margin: 0px 150px;
+			padding: 0px 100px;
+		}
+		.tmsedi{
+			
+			color: black;
+		}
+		
+		.tex{
+			font-size:27px;
+		}
+		
+		.informacion{
+			background-color:rgb(25, 37, 48);
+			padding: 30px  0px;
+			
+		}
+		.lookinfor{
+			margin:opx 45px ;
+			
+		}
+		
+		.informacione{
+			background-color:rgb(25, 37, 48);
+			padding: 10px  0px;
+        }
+        
+        .ios{
+            background: rgb(25, 37, 48);
+
+        }
 	
-	width:100%;
-	max-width:84%;
-	margin:20px auto;
-}
-header nav{
-	background:rgb(36, 41, 117);
-	overflow:hidden; /*desbordarse:oculto*/
-}
-header nav ul{
-	list-style:none;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-header nav ul li{
-	float:left;
-	
-}
-header nav ul li label{
-	padding:17px 17px;
-	display:block;
-	color:rgb(173, 166, 166);
-	text-decoration:none;
-	font-size:19px;
-}
-header nav ul li label:hover{
-	background:rgb(100, 112, 94);
-}
-.main section{
-    width:100%;
-    max-width:91.3%;
-	float:left;
-	
-}
-
-.main section{
-	padding:10px;
-	background:rgb(0, 0, 0);
-	margin-bottom:20px;
-}
-
-
-footer{
-	background:rgb(66, 131, 184);
-	color:rgb(7, 7, 7);
-	clear:both;    /*despejado:ambas*/
-	padding:10px 0px;
-	text-align:center;
-}
-
-a, .grud{
-    color:rgb(165, 154, 154);
-    font-size:25px;
-    
-}
-
-label{
-    font-size:18px;
-    
-}
-a{
-  font-size:25px;
-  line-height:37px; 
-  text-decoration:none;
-}
-.soy{
-	border:40px solid black;
-	text-decoration:none;
-	
-}
